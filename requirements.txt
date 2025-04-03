@@ -1,0 +1,30 @@
+# Core ML & Data Science
+torch>=2.0.0
+numpy>=1.21.0
+pandas>=1.5.0
+scikit-learn>=1.0.0
+plotly>=5.13.0
+
+# Deep Learning & Visualization
+torchview>=0.2.0
+tensorboard>=2.11.0
+
+# Financial Data
+yfinance>=0.2.0
+tiingo>=0.14.0
+pandas-ta>=0.3.0
+
+# LLM Integration
+openai>=1.0.0
+langchain>=0.0.300
+
+# Web Interface
+streamlit>=1.22.0
+fastapi>=0.95.0
+
+# Image Processing
+Pillow>=9.5.0
+
+# Optional Dependencies
+networkx>=3.0  # For agent interaction graphs
+mplfinance>=0.12.0  # For candlestick charts
