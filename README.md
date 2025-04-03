@@ -1,6 +1,31 @@
-# llm-trading
-
 # 🤖 Advanced Reinforcement Learning for Quantitative Trading
+
+## 📋 Project Summary
+A comprehensive stock analysis and prediction system that combines multiple AI approaches:
+
+1. **Stock Analysis & Prediction**
+   - Real-time stock data fetching using yfinance and Tiingo APIs
+   - Technical analysis with candlestick visualization
+   - Price prediction using LSTM-CNN hybrid models
+   - Interactive dashboards for market monitoring
+
+2. **AI Integration**
+   - LLM-powered fundamental analysis using GPT-4
+   - Custom LangChain agents for market research
+   - Deep learning models for price prediction
+   - Q-Learning implementation for trading decisions
+
+3. **Technical Implementation**
+   - Streamlit-based interactive web interface
+   - Asynchronous data processing for real-time updates
+   - GPU-accelerated computations with PyTorch
+   - Custom neural network architectures with attention mechanisms
+
+The system allows users to:
+- Search and analyze any publicly traded company
+- Get real-time price updates and predictions
+- Access AI-powered fundamental analysis
+- Visualize market data through interactive charts
 
 ## 📊 Overview
 A state-of-the-art algorithmic trading system leveraging deep reinforcement learning for autonomous trading strategies. This system combines advanced ML techniques with high-frequency trading capabilities to optimize portfolio performance across diverse market conditions.
@@ -24,20 +49,20 @@ A state-of-the-art algorithmic trading system leveraging deep reinforcement lear
 └── TensorBoard         : Training visualization
 ```
 
-### Data Processing
+### Data Processing & APIs
 ```
 ├── pandas-ta           : Technical analysis
 ├── scikit-learn       : Feature preprocessing
 ├── NumPy/CuPy        : GPU computation
-└── yfinance          : Market data
+├── yfinance          : Market data
+└── Tiingo           : Financial data API
 ```
 
-### Infrastructure
+### Application Stack
 ```
-├── MongoDB            : Market data storage
-├── Redis             : Real-time caching
+├── Streamlit          : Web interface
 ├── FastAPI           : REST endpoints
-└── Docker            : Containerization
+└── LangChain        : LLM integration
 ```
 
 ### Visualization
